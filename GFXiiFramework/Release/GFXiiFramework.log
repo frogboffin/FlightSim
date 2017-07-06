@@ -1,0 +1,143 @@
+﻿Build started 27/4/2015 9:43:09 AM.
+     1>Project "G:\Graphics\GFXiiFramework\GFXiiFramework\GFXiiFramework.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BaseApplication.cpp Camera.cpp GFXiiFramework.cpp GLM\detail\dummy.cpp GLM\detail\glm.cpp ImageIO.cpp OBJFileReader.cpp OpenGL\OGLCube.cpp OpenGL\OGLMesh.cpp OpenGL\OGLShader.cpp OpenGL\OGLTexture.cpp OpenGL\OGLWindow.cpp SkyBox.cpp Target.cpp Triangle.cpp Vector3.cpp
+         BaseApplication.cpp
+     1>BaseApplication.cpp(84): warning C4316: 'OGLWindow' : object allocated on the heap may not be aligned 16
+     1>BaseApplication.cpp(136): warning C4101: 'wmId' : unreferenced local variable
+     1>BaseApplication.cpp(136): warning C4101: 'wmEvent' : unreferenced local variable
+         Camera.cpp
+         GFXiiFramework.cpp
+         dummy.cpp
+         GLM: version 0.9.6.3
+         GLM: Windows platform detected
+         GLM: Visual C++ compiler detected
+         GLM: 32 bits model
+         GLM: C++0x
+         GLM: Language extensions enabled
+         GLM: SSE2 instruction set
+         GLM: Swizzling operators disabled, #define GLM_SWIZZLE to enable swizzle operators
+         GLM: .length() returns glm::length_t, a typedef of int following the GLSL specification
+         GLM: Core library included
+         GLM: All extensions included (not recommanded)
+         GLM: GLM_GTC_bitfield extension included
+         GLM: GLM_GTC_constants extension included
+         GLM: GLM_GTC_epsilon extension included
+         GLM: GLM_GTC_quaternion extension included
+         GLM: GLM_GTC_integer extension included
+         GLM: GLM_GTC_matrix_access extension included
+         GLM: GLM_GTC_matrix_integer extension included
+         GLM: GLM_GTC_matrix_inverse extension included
+         GLM: GLM_GTC_matrix_transform extension included
+         GLM: GLM_GTC_noise extension included
+         GLM: GLM_GTC_vec1 extension included
+         GLM: GLM_GTC_type_precision extension included
+         GLM: GLM_GTC_packing extension included
+         GLM: GLM_GTC_random extension included
+         GLM: GLM_GTC_reciprocal extension included
+         GLM: GLM_GTC_integer extension included
+         GLM: GLM_GTC_type_ptr extension included
+         GLM: GLM_GTC_ulp extension included
+         GLM: GLM_GTX_associated_min_max extension included
+         GLM: GLM_GTX_bit extension is deprecated, include GLM_GTC_bitfield and GLM_GTC_integer instead
+         GLM: GLM_GTX_closest_point extension included
+         GLM: GLM_GTX_color_space extension included
+         GLM: GLM_GTX_color_space_YCoCg extension included
+         GLM: GLM_GTX_compatibility extension included
+         GLM: GLM_GTX_component_wise extension included
+         GLM: GLM_GTX_dual_quaternion extension included
+         GLM: GLM_GTX_euler_angles extension included
+         GLM: GLM_GTX_extend extension included
+         GLM: GLM_GTX_extented_min_max extension included
+         GLM: GLM_GTX_fast_exponential extension included
+         GLM: GLM_GTX_fast_square_root extension included
+         GLM: GLM_GTX_fast_trigonometry extension included
+         GLM: GLM_GTX_optimum_pow extension included
+         GLM: GLM_GTX_gradient_paint extension included
+         GLM: GLM_GTX_handed_coordinate_space extension included
+         GLM: GLM_GTX_integer extension included
+         GLM: GLM_GTX_closest_point extension included
+         GLM: GLM_GTX_log_base extension included
+         GLM: GLM_GTX_matrix_cross_product extension included
+         GLM: GLM_GTX_matrix_interpolation extension included
+         GLM: GLM_GTX_matrix_major_storage extension included
+         GLM: GLM_GTX_matrix_operation extension included
+         GLM: GLM_GTX_vector_query extension included
+         GLM: GLM_GTX_matrix_query extension included
+         GLM: GLM_GTX_mixed_product extension included
+         GLM: GLM_GTX_quaternion extension included
+         GLM: GLM_GTX_norm extension included
+         GLM: GLM_GTX_normal extension included
+         GLM: GLM_GTX_normalize_dot extension included
+         GLM: GLM_GTX_number_precision extension included
+         GLM: GLM_GTX_orthonormalize extension included
+         GLM: GLM_GTX_projection extension included
+         GLM: GLM_GTX_perpendicular extension included
+         GLM: GLM_GTX_polar_coordinates extension included
+         GLM: GLM_GTX_raw_data extension included
+         GLM: GLM_GTX_transform extension included
+         GLM: GLM_GTX_rotate_vector extension included
+         GLM: GLM_GTX_spline extension included
+         GLM: GLM_GTX_std_based_type extension included
+         GLM: GLM_GTX_string_cast extension included
+         GLM: GLM_GTX_transform2 extension included
+         GLM: GLM_GTX_type_aligned extension included
+         GLM: GLM_GTX_vector_angle extension included
+         GLM: GLM_GTX_wrap extension included
+         GLM: GLM_GTX_simd_vec4 extension included
+         GLM: GLM_GTX_simd_mat4 extension included
+         glm.cpp
+         ImageIO.cpp
+         OBJFileReader.cpp
+     1>OBJFileReader.cpp(114): warning C4101: 'index4' : unreferenced local variable
+     1>OBJFileReader.cpp(110): warning C4101: 'dummy' : unreferenced local variable
+     1>OBJFileReader.cpp(118): warning C4101: 'tidx4' : unreferenced local variable
+     1>OBJFileReader.cpp(116): warning C4101: 'nidx4' : unreferenced local variable
+         OGLCube.cpp
+         OGLMesh.cpp
+         OGLShader.cpp
+         OGLTexture.cpp
+         OGLWindow.cpp
+     1>OpenGL\OGLWindow.cpp(124): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>OpenGL\OGLWindow.cpp(125): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>OpenGL\OGLWindow.cpp(154): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>OpenGL\OGLWindow.cpp(159): warning C4316: 'Target' : object allocated on the heap may not be aligned 16
+     1>OpenGL\OGLWindow.cpp(276): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>OpenGL\OGLWindow.cpp(277): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>OpenGL\OGLWindow.cpp(370): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>OpenGL\OGLWindow.cpp(371): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         SkyBox.cpp
+         Target.cpp
+     1>Target.cpp(16): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         Triangle.cpp
+         Vector3.cpp
+     1>Vector3.cpp(131): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\GFXiiFramework.res" GFXiiFramework.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Graphics\GFXiiFramework\Release\GFXiiFramework.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\Graphics\GFXiiFramework\Release\GFXiiFramework.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Graphics\GFXiiFramework\Release\GFXiiFramework.lib" /MACHINE:X86 /SAFESEH Release\GFXiiFramework.res
+         Release\BaseApplication.obj
+         Release\Camera.obj
+         Release\GFXiiFramework.obj
+         Release\dummy.obj
+         Release\glm.obj
+         Release\ImageIO.obj
+         Release\OBJFileReader.obj
+         Release\OGLCube.obj
+         Release\OGLMesh.obj
+         Release\OGLShader.obj
+         Release\OGLTexture.obj
+         Release\OGLWindow.obj
+         Release\SkyBox.obj
+         Release\Target.obj
+         Release\Triangle.obj
+         Release\Vector3.obj
+         GLEW\lib\glew32.lib
+         Generating code
+         Finished generating code
+         GFXiiFramework.vcxproj -> G:\Graphics\GFXiiFramework\Release\GFXiiFramework.exe
+     1>Done Building Project "G:\Graphics\GFXiiFramework\GFXiiFramework\GFXiiFramework.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.16
